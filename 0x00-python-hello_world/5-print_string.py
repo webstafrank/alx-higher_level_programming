@@ -1,3 +1,6 @@
 #!/usr/bin/python3
 str = "Holberton School"
-# YOUR CODE GOES HERE. PLEASE REMOVE THIS LINE
+# printing str 3 times followed by a new line
+# followed by the 9 first chars and a new line
+print(f"{str * 3}")
+print(f"{str :.9}")
