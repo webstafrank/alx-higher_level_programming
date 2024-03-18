@@ -11,5 +11,4 @@ if p > 5:
 elif p == 0:
     print(f"The last digit of {number} is {p} and is 0")
 elif p < 6:
-    print (f"The last digit of {number} is {p} and it is less than 6 and not 0")
-    
+    print(f"The last digit of {number} is {p} and it is less than 6 and not 0) 
