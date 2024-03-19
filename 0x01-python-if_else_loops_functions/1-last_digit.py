@@ -8,7 +8,7 @@ string = "Last digit of"
 if p < 0:
     p = -(p)
 if p > 5:
-        print(f"{string} {number} is {p} and it is greater than 5")
+        print(f"{string} {number} is {p} and is greater than 5")
 elif p == 0:
     print(f"{string} {number} is {p} and is 0")
 elif p < 6:
