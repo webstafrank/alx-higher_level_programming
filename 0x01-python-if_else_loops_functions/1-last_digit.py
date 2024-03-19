@@ -4,11 +4,11 @@ number = random.randint(-10000, 10000)
 # assigning a random number to a variable
 # printing its last digit
 p = abs(number) % 10
+string = "Last digit of"
 if p < 0:
     p = -(p)
 if p > 5:
-    string = "Last digit of"
-    print(f"{string} {number} is {p} and it is greater than 5")
+        print(f"{string} {number} is {p} and it is greater than 5")
 elif p == 0:
     print(f"{string} {number} is {p} and is 0")
 elif p < 6:
